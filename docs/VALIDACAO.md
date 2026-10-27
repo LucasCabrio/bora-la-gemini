@@ -9,9 +9,13 @@ Data: 27/10/2026. Windows, Node.js 24.14.0 e Chrome headless.
 - Forecast: previsão para 28/10/2026, mínima 12,1 °C, máxima 22,4 °C e probabilidade de chuva 63% na consulta registrada.
 - Wikipédia: português e alternativa em inglês testados. Sobrecarga transitória na busca em português motivou a alternativa.
 - Gemini `gemini-3.5-flash`: geração real com as quatro funções; teste por script estimou R$ 95 por pessoa num limite de R$ 100.
-- Formulário: geração real capturada no navegador, estimando R$ 90 por pessoa. Gerações diferentes podem produzir sugestões diferentes.
+- Formulário: a primeira validação real pelo navegador estimou R$ 90 por pessoa. As capturas podem ser atualizadas com novas consultas; os valores e as sugestões variam entre gerações.
 - Nenhum erro JavaScript observado; sem overflow horizontal em 390 px no início e resultado demonstrativo.
 - Download TXT, modal, detalhes de ferramentas e mensagem HTTP 429 verificados. O erro HTTP foi simulado pelo teste, sem consumir cota.
 - Prints em `docs/screenshots/`. Arquivos de exemplo e roteiro mobile são demonstrativos. `07-roteiro-real.png` e `08-function-calling-real.png` mostram consulta real.
 
 Disponibilidade de modelos, cotas e APIs pode mudar. Os testes não certificam preços, funcionamento de locais ou deslocamentos.
+
+## Revisão de apresentação
+
+Textos da interface simplificados, seção promocional removida e relatório revisado com títulos técnicos e fundo branco. Código formatado para leitura. Os seis testes de regras passaram novamente e o build foi concluído após a revisão.

@@ -1,4 +1,37 @@
-import { Code2, Check, ChevronDown } from 'lucide-react';
+import { Code2, Check, ChevronDown } from "lucide-react";
 export default function ToolTrace({ trace, mode }) {
-  return <details className="tool-trace"><summary><Code2 size={19}/><span>Por trás do roteiro<small>{mode === 'demo' ? 'Fluxo ilustrativo · nenhuma API foi chamada' : `${trace.length} etapas · veja o function calling em ação`}</small></span><ChevronDown size={18}/></summary><div className="trace-list">{trace.map((item, i) => <div className="trace-item" key={i}><Check size={16}/><div><code>{item.name}()</code><p>{item.detail}</p></div><span>{mode === 'demo' ? 'exemplo' : `${item.ms} ms`}</span></div>)}<p className="trace-note">O Gemini solicita as funções. O servidor executa as consultas e devolve os dados à IA. A última função entrega o roteiro; o servidor confere locais, horários e soma dos custos. Os tempos medem as funções locais, sem incluir a espera pelo Gemini.</p></div></details>;
+  return (
+    <details className="tool-trace">
+      <summary>
+        <Code2 size={19} />
+        <span>
+          Por trás do roteiro
+          <small>
+            {mode === "demo"
+              ? "Fluxo ilustrativo · nenhuma API foi chamada"
+              : `${trace.length} etapas · veja o function calling em ação`}
+          </small>
+        </span>
+        <ChevronDown size={18} />
+      </summary>
+      <div className="trace-list">
+        {trace.map((item, i) => (
+          <div className="trace-item" key={i}>
+            <Check size={16} />
+            <div>
+              <code>{item.name}()</code>
+              <p>{item.detail}</p>
+            </div>
+            <span>{mode === "demo" ? "exemplo" : `${item.ms} ms`}</span>
+          </div>
+        ))}
+        <p className="trace-note">
+          O Gemini solicita as funções. O servidor executa as consultas e
+          devolve os dados à IA. A última função entrega o roteiro; o servidor
+          confere locais, horários e soma dos custos. Os tempos medem as funções
+          locais, sem incluir a espera pelo Gemini.
+        </p>
+      </div>
+    </details>
+  );
 }

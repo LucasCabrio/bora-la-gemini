@@ -1,6 +1,6 @@
 # Bora Lá
 
-**Um rolê com a sua cara. E com o seu bolso.**
+Aplicação web para sugerir passeios com base na cidade, no clima e no orçamento.
 
 Planejador de passeios urbanos que combina orçamento, interesses e previsão do tempo. Projeto acadêmico com **React, Node.js, API do Gemini, function calling e APIs externas**.
 
@@ -39,10 +39,10 @@ Abra **http://localhost:3001**. O servidor usa `127.0.0.1`, voltado à demonstra
 
 1. Informe apenas o nome de uma cidade brasileira, por exemplo Curitiba.
 2. Escolha hoje ou amanhã, orçamento **por pessoa**, quantidade de pessoas e interesse.
-3. Clique em **Encontrar meu próximo rolê**. A geração pode levar alguns minutos.
+3. Clique em **Gerar roteiro**. A geração pode levar alguns minutos.
 4. Confira paradas, fontes, clima, gastos estimados e plano B.
 5. Abra **Por trás do roteiro** para visualizar as funções executadas.
-6. **Salvar roteiro** baixa um TXT. **Explorar um exemplo** abre dados ilustrativos identificados.
+6. **Salvar roteiro** baixa um TXT. **Ver exemplo** abre dados ilustrativos identificados.
 
 ## Arquitetura
 
