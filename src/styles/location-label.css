@@ -1,0 +1,46 @@
+.location-label {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 10px;
+  color: #7e8c6e;
+  flex-wrap: wrap;
+}
+
+.itinerary-heading h3 {
+  font-family: "Manrope", sans-serif;
+  font-size: 26px;
+  line-height: 1.35;
+  letter-spacing: -1px;
+  margin: 16px 0 12px;
+}
+
+.itinerary-heading > p {
+  font-size: 12px;
+  line-height: 1.9;
+  color: #7e8877;
+  margin: 0;
+}
+
+.meta-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0 26px;
+}
+
+.meta-chips > span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #f5f7ef;
+  padding: 7px 9px;
+  border-radius: 5px;
+  font-size: 9px;
+  color: #81916a;
+}
+
+.stops {
+  border-top: 1px solid #edf0e8;
+  padding-top: 28px;
+}

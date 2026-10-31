@@ -1,0 +1,43 @@
+.loading-card p {
+  font-size: 13px;
+  line-height: 1.8;
+  max-width: 500px;
+  margin: 0 auto;
+  color: #7b886f;
+}
+
+.loading-card > span {
+  display: block;
+  font-size: 11px;
+  color: #7a915d;
+  margin-top: 20px;
+}
+
+.error-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 25px;
+  background: #fff1e8;
+  border: 1px solid #efdbcb;
+  border-radius: 12px;
+  color: #955e3d;
+  margin: 25px 0;
+}
+
+.error-card strong {
+  font-size: 14px;
+}
+
+.error-card p {
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.error-card span {
+  font-size: 11px;
+}
+
+.error-card svg {
+  flex-shrink: 0;
+}

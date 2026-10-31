@@ -6,3 +6,5 @@ dist/
 tmp/
 *.log
 test-results/
+__pycache__/
+*.pyc

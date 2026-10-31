@@ -1,0 +1,41 @@
+@media (max-width: 650px) {
+  .scene-park svg {
+    width: 65px;
+  }
+}
+
+@media (max-width: 650px) {
+  .scene-museum {
+    bottom: 32px;
+    right: 60px;
+    padding: 9px 18px;
+  }
+}
+
+@media (max-width: 650px) {
+  .scene-museum svg {
+    width: 55px;
+    height: 55px;
+  }
+}
+
+@media (max-width: 650px) {
+  .label-one {
+    bottom: 55px;
+    left: 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .label-two {
+    top: 66px;
+    right: 15px;
+  }
+}
+
+@media (max-width: 650px) {
+  .scene-caption {
+    bottom: 14px;
+    font-size: 7px;
+  }
+}

@@ -1,33 +1,10 @@
+import { checkExternal } from "./checks/external.js";
 import { locateCity, findPlaces } from "../server/services/places.js";
 import { getWeather } from "../server/services/weather.js";
 import { createPlan } from "../server/services/planner.js";
 import { mkdir, writeFile } from "node:fs/promises";
-const summary = {};
-for (const city of ["Curitiba"]) {
-  try {
-    const location = await locateCity(city);
-    console.log("Geocoding OK:", location.name, location.state);
-    const [weather, places] = await Promise.all([
-      getWeather(location, "amanha"),
-      findPlaces(location),
-    ]);
-    console.log("Clima OK:", weather.date, weather.min, weather.max);
-    console.log(
-      "Locais OK:",
-      places.length,
-      places.slice(0, 4).map((p) => p.name),
-    );
-    summary.external = {
-      ok: true,
-      location,
-      weather,
-      placeCount: places.length,
-    };
-  } catch (error) {
-    summary.external = { ok: false, error: error.message };
-    console.error(error.message);
-  }
-}
+const summary = { external: await checkExternal() };
+
 try {
   const result = await createPlan({
     city: "Curitiba",

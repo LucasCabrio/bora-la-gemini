@@ -1,0 +1,42 @@
+@media (max-width: 900px) {
+  .city-scene {
+    height: 290px;
+  }
+}
+
+@media (max-width: 900px) {
+  .scene-park {
+    left: 35px;
+    top: 68px;
+  }
+}
+
+@media (max-width: 900px) {
+  .scene-museum {
+    right: 35px;
+  }
+}
+
+@media (max-width: 900px) {
+  .label-two {
+    top: 90px;
+  }
+}
+
+@media (max-width: 900px) {
+  .scene-weather {
+    left: 17px;
+  }
+}
+
+@media (max-width: 900px) {
+  .form-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 900px) {
+  .form-bottom {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,42 @@
+.about-dialog {
+  max-width: 560px;
+  width: calc(100% - 32px);
+  max-height: 85vh;
+  padding: 38px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  color: var(--green);
+  background: #fcfdf8;
+  box-shadow: 0 20px 100px #102a3333;
+}
+
+.about-dialog::backdrop {
+  background: #162a25a0;
+  backdrop-filter: blur(4px);
+}
+
+.close-button {
+  position: absolute;
+  top: 13px;
+  right: 13px;
+  background: transparent;
+  padding: 6px;
+}
+
+.about-dialog h2 {
+  font-size: 29px;
+  line-height: 1.4;
+  margin-top: 20px;
+}
+
+.about-dialog > p {
+  font-size: 13px;
+  line-height: 1.8;
+  color: #7d8970;
+}
+
+.about-steps {
+  margin-top: 24px;
+  display: grid;
+  gap: 18px;
+}

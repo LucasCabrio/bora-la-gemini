@@ -1,0 +1,46 @@
+.form-actions > span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #8b9683;
+  font-size: 10px;
+}
+
+.primary-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  padding: 15px 20px;
+  border-radius: 8px;
+  background: var(--green);
+  color: #f1f5e7;
+  font-size: 12px;
+  font-weight: 500;
+  transition:
+    background 0.2s,
+    transform 0.2s;
+}
+
+.primary-button:hover {
+  background: #2a5a46;
+  transform: translateY(-1px);
+}
+
+.under-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 14px;
+  color: #8c9585;
+  font-size: 10px;
+}
+
+.under-form button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  font-size: 10px;
+  color: #66804a;
+}

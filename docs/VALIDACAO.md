@@ -19,3 +19,12 @@ Disponibilidade de modelos, cotas e APIs pode mudar. Os testes não certificam p
 ## Revisão de apresentação
 
 Textos da interface simplificados, seção promocional removida e relatório revisado com títulos técnicos e fundo branco. Código formatado para leitura. Os seis testes de regras passaram novamente e o build foi concluído após a revisão.
+
+## Refatoração de 31/10/2026
+
+- Componentes, funções do backend, testes e scripts separados em arquivos de até 50 linhas.
+- Verificação automática adicionada: `npm run check:lines`.
+- Incluídos testes de correção de roteiro e limite de tentativas do modelo.
+- Interface verificada após a divisão: exemplo, painel, TXT, modal, celular e mensagem de erro.
+- Oito testes aprovados; build concluído; 150 arquivos verificados com até 50 linhas.
+- Open-Meteo e Wikipédia responderam no teste real de 31/10. O Gemini retornou HTTP 503 nas duas tentativas; a geração integrada não pôde ser confirmada nessa data.

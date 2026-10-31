@@ -16,8 +16,7 @@ export function usePlanner() {
         signal: AbortSignal.timeout(240000),
       });
       const data = await response.json();
-      if (!response.ok)
-        throw new Error(data.error || "Não foi possível gerar seu roteiro.");
+      if (!response.ok) throw new Error(data.error || "Não foi possível gerar seu roteiro.");
       setResult(data);
     } catch (err) {
       setError(

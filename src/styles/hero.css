@@ -1,0 +1,44 @@
+@media (min-width: 1600px) {
+  .hero {
+    padding: 65px 0 50px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .hero h1 {
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .city-scene {
+    height: 330px;
+  }
+}
+
+@media (max-width: 1250px) {
+  header,
+  main,
+  footer {
+    margin-left: 38px;
+    margin-right: 38px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .hero h1 {
+    font-size: 39px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .hero {
+    gap: 28px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .interest {
+    padding: 10px 9px;
+  }
+}

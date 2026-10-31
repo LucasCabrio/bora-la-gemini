@@ -1,0 +1,45 @@
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *:before,
+  *:after {
+    animation-duration: 0.01ms !important;
+    transition: none !important;
+  }
+}
+
+/* Ajustes de apresentação: formulário em destaque e menos elementos decorativos. */
+
+.hero {
+  padding-top: 35px;
+  padding-bottom: 30px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  letter-spacing: -1.3px;
+}
+
+.city-scene {
+  border-radius: 14px;
+}
+
+.scene-grid {
+  opacity: 0.35;
+}
+
+.scene-label {
+  box-shadow: none;
+}
+
+.eyebrow {
+  letter-spacing: 1px;
+}
+
+.planner-card {
+  box-shadow: none;
+  border-radius: 10px;
+}
+
+.under-form {
+  margin-bottom: 40px;
+}

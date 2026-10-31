@@ -1,0 +1,46 @@
+.text-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 23px;
+  font-size: 12px;
+  font-weight: 650;
+}
+
+.city-scene {
+  position: relative;
+  height: 315px;
+  background: #e8eddd;
+  border-radius: 90px 20px 80px 20px;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.scene-grid {
+  position: absolute;
+  inset: -80px;
+  background-image:
+    linear-gradient(#d5ddca 1px, transparent 1px), linear-gradient(90deg, #d5ddca 1px, transparent 1px);
+  background-size: 54px 54px;
+  transform: rotate(-22deg);
+  opacity: 0.65;
+}
+
+.scene-river {
+  position: absolute;
+  width: 95px;
+  height: 550px;
+  background: #c8ded6;
+  transform: rotate(40deg);
+  left: 300px;
+  top: -140px;
+  border: 10px solid #dce7da;
+  border-radius: 40%;
+}
+
+.scene-route {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}

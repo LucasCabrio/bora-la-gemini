@@ -1,0 +1,45 @@
+@media (max-width: 650px) {
+  .primary-button {
+    width: 100%;
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 650px) {
+  .under-form {
+    flex-direction: column;
+    gap: 13px;
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 650px) {
+  .under-form button {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 650px) {
+  .manifesto {
+    padding: 50px 0;
+  }
+}
+
+@media (max-width: 650px) {
+  .manifesto h2 {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 650px) {
+  .manifesto .eyebrow {
+    font-size: 7px;
+    letter-spacing: 1px;
+  }
+}
+
+@media (max-width: 650px) {
+  .manifesto p {
+    font-size: 11px;
+  }
+}

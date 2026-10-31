@@ -1,0 +1,43 @@
+.tool-trace summary {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 18px 22px;
+  cursor: pointer;
+  list-style: none;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.tool-trace summary::-webkit-details-marker {
+  display: none;
+}
+
+.tool-trace summary > svg:last-child {
+  margin-left: auto;
+}
+
+.tool-trace summary small {
+  display: block;
+  font-size: 9px;
+  font-weight: 400;
+  color: #8b987a;
+  margin-top: 4px;
+}
+
+.tool-trace[open] summary > svg:last-child {
+  transform: rotate(180deg);
+}
+
+.trace-list {
+  padding: 0 22px 17px;
+}
+
+.trace-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-top: 1px solid #e0e7d5;
+  padding: 13px 0;
+  color: #7c9264;
+}

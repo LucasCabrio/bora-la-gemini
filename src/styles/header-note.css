@@ -1,0 +1,46 @@
+.header-note > span {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #6f934d;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1.12fr 1fr;
+  align-items: center;
+  gap: 42px;
+  padding: 55px 0 44px;
+}
+
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #748066;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+}
+
+.hero h1 {
+  font-family: "Manrope", sans-serif;
+  font-size: 44px;
+  line-height: 1.22;
+  font-weight: 750;
+  letter-spacing: -2px;
+  margin: 22px 0 19px;
+}
+
+.hero h1 em {
+  font-style: normal;
+  color: #7b9361;
+}
+
+.hero-copy > p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #737c70;
+  max-width: 430px;
+  margin: 0;
+}

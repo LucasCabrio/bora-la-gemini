@@ -1,0 +1,47 @@
+@media (max-width: 650px) {
+  .cost-tag {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 650px) {
+  .stop-links {
+    gap: 12px;
+  }
+}
+
+@media (max-width: 650px) {
+  .stop-links a {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 650px) {
+  .demo-banner {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 650px) {
+  .meta-chips {
+    gap: 6px;
+  }
+}
+
+@media (max-width: 650px) {
+  .meta-chips > span {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 650px) {
+  .source-note {
+    line-height: 1.8;
+  }
+}
+
+@media (max-width: 650px) {
+  .tool-trace summary {
+    padding: 16px;
+  }
+}

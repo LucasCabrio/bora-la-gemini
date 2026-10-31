@@ -1,0 +1,42 @@
+@media (max-width: 1250px) {
+  .form-grid {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .form-bottom {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .header-note {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero h1 {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero {
+    gap: 20px;
+    padding-top: 38px;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero-copy > p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero .eyebrow {
+    font-size: 8px;
+  }
+}

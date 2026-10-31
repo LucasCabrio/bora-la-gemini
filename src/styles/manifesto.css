@@ -1,0 +1,47 @@
+.manifesto {
+  text-align: center;
+  padding: 70px 0 74px;
+}
+
+.manifesto .eyebrow {
+  justify-content: center;
+  font-size: 9px;
+}
+
+.manifesto h2 {
+  font-size: 30px;
+  line-height: 1.4;
+  margin-top: 15px;
+}
+
+.manifesto p {
+  font-size: 12px;
+  line-height: 1.9;
+  color: #88917f;
+  margin-top: 16px;
+}
+
+footer {
+  padding: 26px 0;
+  border-top: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  color: #909886;
+  font-size: 10px;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 19px;
+  font-weight: 750;
+  letter-spacing: -0.6px;
+  color: #49613e;
+}
+
+footer small {
+  margin-left: auto;
+  font-size: 9px;
+}

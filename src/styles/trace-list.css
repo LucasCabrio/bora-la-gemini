@@ -1,0 +1,47 @@
+@media (max-width: 650px) {
+  .trace-list {
+    padding: 0 16px 15px;
+  }
+}
+
+@media (max-width: 650px) {
+  .trace-item {
+    gap: 7px;
+  }
+}
+
+@media (max-width: 650px) {
+  .trace-item code {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 650px) {
+  .trace-item p {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 650px) {
+  .trace-item > span {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 650px) {
+  .trace-item > svg {
+    flex-shrink: 0;
+  }
+}
+
+@media (max-width: 650px) {
+  .about-dialog {
+    padding: 30px 22px;
+  }
+}
+
+@media (max-width: 650px) {
+  .about-dialog h2 {
+    font-size: 25px;
+  }
+}

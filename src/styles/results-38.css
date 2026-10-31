@@ -1,0 +1,46 @@
+@media (max-width: 650px) {
+  .results {
+    padding-top: 33px;
+  }
+}
+
+@media (max-width: 650px) {
+  .results > .section-title {
+    align-items: flex-end;
+  }
+}
+
+@media (max-width: 650px) {
+  .results h2 {
+    font-size: 21px;
+    max-width: 190px;
+  }
+}
+
+@media (max-width: 650px) {
+  .secondary-button {
+    font-size: 9px;
+    gap: 5px;
+    padding: 10px;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 650px) {
+  .result-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 650px) {
+  .result-sidebar {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 650px) {
+  .itinerary {
+    padding: 20px 17px;
+  }
+}

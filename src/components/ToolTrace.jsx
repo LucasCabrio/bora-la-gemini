@@ -26,10 +26,9 @@ export default function ToolTrace({ trace, mode }) {
           </div>
         ))}
         <p className="trace-note">
-          O Gemini solicita as funções. O servidor executa as consultas e
-          devolve os dados à IA. A última função entrega o roteiro; o servidor
-          confere locais, horários e soma dos custos. Os tempos medem as funções
-          locais, sem incluir a espera pelo Gemini.
+          O Gemini solicita as funções. O servidor executa as consultas e devolve os dados à IA. A última
+          função entrega o roteiro; o servidor confere locais, horários e soma dos custos. Os tempos medem as
+          funções locais, sem incluir a espera pelo Gemini.
         </p>
       </div>
     </details>

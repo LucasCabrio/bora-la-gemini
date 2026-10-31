@@ -1,0 +1,46 @@
+.about-steps > div {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.about-steps svg {
+  flex-shrink: 0;
+  color: #87a066;
+}
+
+.about-steps strong {
+  font-size: 12px;
+}
+
+.about-steps p {
+  font-size: 11px;
+  line-height: 1.7;
+  color: #89957b;
+  margin: 4px 0 0;
+}
+
+.about-dialog .dialog-footnote {
+  font-size: 10px;
+  margin-top: 25px;
+  border-top: 1px solid var(--line);
+  padding-top: 17px;
+}
+
+.spin {
+  animation: spin 1.2s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (min-width: 1600px) {
+  header,
+  main,
+  footer {
+    max-width: 1240px;
+  }
+}

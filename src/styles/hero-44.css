@@ -1,0 +1,21 @@
+.hero h1 em {
+  color: #53734e;
+}
+
+@media (max-width: 650px) {
+  .hero h1 {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 650px) {
+  .hero {
+    padding-top: 25px;
+  }
+}
+
+@media (max-width: 650px) {
+  .under-form {
+    margin-bottom: 30px;
+  }
+}

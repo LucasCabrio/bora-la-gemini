@@ -1,0 +1,45 @@
+.cost-tag {
+  background: #f7f4eb;
+  color: #96845b;
+  padding: 5px 7px;
+  border-radius: 5px;
+  font-size: 9px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.cost-tag.free {
+  background: #f0f5e8;
+  color: #84966d;
+}
+
+.stop h4 {
+  font-size: 16px;
+  margin: 7px 0 9px;
+  letter-spacing: -0.3px;
+}
+
+.stop-content > p {
+  font-size: 12px;
+  line-height: 1.9;
+  color: #7c8774;
+  margin: 0;
+}
+
+.stop-links {
+  display: flex;
+  gap: 18px;
+  margin-top: 12px;
+}
+
+.stop-links a {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 10px;
+  color: #6e8852;
+}
+
+.stop-links a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,46 @@
+.results {
+  padding: 45px 0 36px;
+}
+
+.secondary-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #fff;
+  border: 1px solid var(--line);
+  padding: 11px 14px;
+  border-radius: 7px;
+  font-size: 11px;
+}
+
+.demo-banner {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background: #fff5d9;
+  color: #8a703a;
+  padding: 13px 16px;
+  border: 1px solid #eddfb6;
+  border-radius: 8px;
+  font-size: 11px;
+  line-height: 1.6;
+  margin-bottom: 18px;
+}
+
+.demo-banner svg {
+  flex-shrink: 0;
+}
+
+.result-grid {
+  display: grid;
+  grid-template-columns: 1fr 310px;
+  gap: 24px;
+  align-items: start;
+}
+
+.itinerary {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 28px;
+}

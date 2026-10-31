@@ -1,0 +1,44 @@
+@media (max-width: 650px) {
+  .itinerary-heading h3 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 650px) {
+  .stop {
+    grid-template-columns: 27px 1fr;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 650px) {
+  .stop-marker {
+    width: 27px;
+    height: 27px;
+  }
+}
+
+@media (max-width: 650px) {
+  .stop:not(:last-child):before {
+    left: 13px;
+  }
+}
+
+@media (max-width: 650px) {
+  .stop h4 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 650px) {
+  .stop-content > p {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 650px) {
+  .stop-top {
+    font-size: 10px;
+    gap: 5px;
+  }
+}

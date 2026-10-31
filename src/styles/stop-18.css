@@ -1,0 +1,45 @@
+.stop:last-child {
+  padding-bottom: 10px;
+}
+
+.plan-disclaimer {
+  margin-top: 23px;
+  border-top: 1px solid var(--line);
+  padding-top: 16px;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  color: #9ba38e;
+}
+
+.plan-disclaimer svg {
+  flex-shrink: 0;
+}
+
+.plan-disclaimer p {
+  font-size: 9px;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.result-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.weather-card {
+  background: #eaf0e1;
+  padding: 23px;
+  border: 1px solid #dce6cd;
+  border-radius: 13px;
+}
+
+.card-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 9px;
+  letter-spacing: 1.1px;
+  font-weight: 650;
+}

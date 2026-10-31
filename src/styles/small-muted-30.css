@@ -1,0 +1,42 @@
+@media (max-width: 900px) {
+  .small-muted {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .result-grid {
+    grid-template-columns: 1fr 265px;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 900px) {
+  .itinerary {
+    padding: 22px;
+  }
+}
+
+@media (max-width: 900px) {
+  .result-sidebar > div {
+    padding: 19px;
+  }
+}
+
+@media (max-width: 900px) {
+  .itinerary-heading h3 {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 900px) {
+  .stop {
+    gap: 12px;
+  }
+}
+
+@media (max-width: 900px) {
+  .stop-top {
+    flex-wrap: wrap;
+  }
+}

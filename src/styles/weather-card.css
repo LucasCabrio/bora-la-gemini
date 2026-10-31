@@ -1,0 +1,46 @@
+.weather-card small {
+  display: block;
+  margin-top: 16px;
+  font-size: 8px;
+  color: #92a17f;
+}
+
+.budget-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 13px;
+  padding: 23px;
+}
+
+.budget-total {
+  font-family: "Manrope", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+  margin: 15px 0;
+}
+
+.budget-total span {
+  font-family: "DM Sans", sans-serif;
+  font-size: 10px;
+  letter-spacing: 0;
+  color: #929c86;
+  margin-left: 7px;
+}
+
+dl {
+  margin: 0;
+}
+
+dl > div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  font-size: 11px;
+  color: #87917a;
+}
+
+dd {
+  margin: 0;
+  color: #526744;
+}

@@ -1,0 +1,42 @@
+.interest-options {
+  display: flex;
+  gap: 7px;
+  margin-top: 10px;
+}
+
+.interest {
+  padding: 11px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  border-radius: 7px;
+  background: #fff;
+  border: 1px solid var(--line);
+  font-size: 10px;
+  color: #7c8777;
+  white-space: nowrap;
+}
+
+.interest.selected {
+  background: #f0f5e6;
+  border-color: #c3d5a8;
+  color: #486137;
+}
+
+.optional {
+  font-weight: 400;
+  color: #9ca392;
+  font-size: 9px;
+  margin-left: 5px;
+}
+
+.form-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #edf0e8;
+  margin-top: 24px;
+  padding: 20px 0;
+  gap: 15px;
+}

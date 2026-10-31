@@ -1,0 +1,44 @@
+.label-one {
+  left: 29px;
+  bottom: 74px;
+  transform: rotate(-4deg);
+}
+
+.label-two {
+  right: 18px;
+  top: 69px;
+  transform: rotate(5deg);
+}
+
+.scene-weather {
+  position: absolute;
+  left: 27px;
+  top: 19px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  background: #fffef9e8;
+  border: 1px solid white;
+  border-radius: 12px;
+  padding: 12px;
+  color: #6d8050;
+  font-size: 11px;
+  font-weight: 650;
+  box-shadow: 0 4px 15px #28413208;
+}
+
+.scene-weather small {
+  display: block;
+  font-weight: 400;
+  font-size: 9px;
+  color: #7d8378;
+  margin-top: 3px;
+}
+
+.scene-pin {
+  position: absolute;
+  bottom: 37px;
+  left: 93px;
+  color: #40634e;
+  transform: rotate(12deg);
+}

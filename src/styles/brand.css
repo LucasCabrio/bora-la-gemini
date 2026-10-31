@@ -1,0 +1,47 @@
+.brand {
+  display: flex;
+  align-items: center;
+  font-family: "Manrope", sans-serif;
+  font-size: 30px;
+  letter-spacing: -1.5px;
+  font-weight: 800;
+  gap: 10px;
+}
+
+.brand-dot {
+  color: #8ba755;
+  margin-left: -10px;
+}
+
+.brand-icon {
+  width: 42px;
+  height: 42px;
+  background: var(--green);
+  color: var(--lime);
+  border-radius: 13px;
+  display: grid;
+  place-items: center;
+}
+
+.header nav {
+  display: flex;
+  gap: 30px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.nav-about {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: none;
+  padding: 0;
+}
+
+.header-note {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+  color: var(--muted);
+}

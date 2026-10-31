@@ -1,0 +1,42 @@
+@media (max-width: 650px) {
+  .form-bottom {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .interest-options {
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 650px) {
+  .interest {
+    font-size: 9px;
+    padding: 10px 8px;
+    gap: 5px;
+  }
+}
+
+@media (max-width: 650px) {
+  .interest svg {
+    width: 14px;
+  }
+}
+
+@media (max-width: 650px) {
+  .form-actions {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 16px 0;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 650px) {
+  .form-actions > span {
+    justify-content: center;
+    font-size: 9px;
+  }
+}

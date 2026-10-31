@@ -1,0 +1,45 @@
+select {
+  margin-top: 9px;
+}
+
+label > input {
+  margin-top: 9px;
+}
+
+input::placeholder {
+  color: #9aa194;
+}
+
+.input-wrap {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: 9px;
+}
+
+.input-wrap > svg,
+.currency {
+  position: absolute;
+  left: 13px;
+  color: #819174;
+  font-size: 12px;
+}
+
+.input-wrap input {
+  padding-left: 39px;
+}
+
+label > small {
+  font-size: 9px;
+  color: #949b8f;
+  display: block;
+  margin-top: 6px;
+  font-weight: 400;
+}
+
+.form-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-top: 23px;
+}

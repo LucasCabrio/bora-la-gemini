@@ -1,0 +1,43 @@
+.budget-left {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  padding: 11px 0;
+  border-top: 1px solid var(--line);
+  font-size: 10px;
+  color: #789454;
+}
+
+.budget-card small {
+  display: block;
+  font-size: 9px;
+  line-height: 1.8;
+  color: #98a18c;
+}
+
+.backup-card {
+  border: 1px solid #e5e2cf;
+  background: #f2f0e5;
+  border-radius: 13px;
+  padding: 22px;
+  color: #8b896e;
+}
+
+.backup-card h4 {
+  font-size: 13px;
+  color: #6b7357;
+  margin: 9px 0;
+}
+
+.backup-card p {
+  font-size: 11px;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.tool-trace {
+  border: 1px solid var(--line);
+  background: #f1f4e9;
+  border-radius: 12px;
+  margin-top: 23px;
+}

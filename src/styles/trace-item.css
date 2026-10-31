@@ -1,0 +1,47 @@
+.trace-item code {
+  font-size: 11px;
+  color: #4f6d3f;
+}
+
+.trace-item p {
+  font-size: 10px;
+  color: #8a987c;
+  margin: 5px 0 0;
+}
+
+.trace-item > span {
+  margin-left: auto;
+  font-size: 9px;
+  white-space: nowrap;
+}
+
+.trace-note {
+  font-size: 10px;
+  color: #8a987c;
+  line-height: 1.8;
+}
+
+.source-note {
+  font-size: 9px;
+  color: #95a087;
+  text-align: center;
+  margin: 17px 0 0;
+}
+
+.loading-card {
+  text-align: center;
+  border: 1px solid var(--line);
+  border-radius: 15px;
+  background: #f0f4e6;
+  padding: 45px;
+  margin-top: 30px;
+}
+
+.loading-card > svg {
+  color: #718a52;
+}
+
+.loading-card h3 {
+  font-size: 21px;
+  letter-spacing: -0.5px;
+}
