@@ -1,3 +1,4 @@
+// Executa a ferramenta solicitada pela IA e guarda os dados consultados ou o roteiro validado.
 import { validatePlan } from "../lib/validation.js";
 export async function executeTool(call, state, request, deps) {
   switch (call.name) {

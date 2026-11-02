@@ -1,3 +1,4 @@
+// Envia o histórico, as instruções e as ferramentas permitidas à API do Gemini.
 import { SYSTEM_PROMPT } from "../tools/prompt.js";
 import { getJson, AppError } from "../lib/http.js";
 export async function generateContent(contents, declarations, allowedNames) {

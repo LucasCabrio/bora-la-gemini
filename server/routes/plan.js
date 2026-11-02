@@ -1,3 +1,4 @@
+// Recebe e valida o pedido de roteiro, aplica limites e chama o serviço de geração.
 import { Router } from "express";
 import { requestSchema } from "../lib/schemas.js";
 import { createPlan } from "../services/planner.js";

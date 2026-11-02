@@ -1,3 +1,4 @@
+// Define com Zod os formatos, tipos e limites do pedido do usuário e do roteiro da IA.
 import { z } from "zod";
 export const requestSchema = z.object({
   city: z.string().trim().min(2).max(80),

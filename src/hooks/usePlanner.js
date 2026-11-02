@@ -1,3 +1,4 @@
+// Envia o pedido ao servidor e controla os estados de carregamento, erro e resultado.
 import { useState } from "react";
 import { demo } from "../data/demo";
 export function usePlanner() {

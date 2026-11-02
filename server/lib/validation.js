@@ -1,3 +1,4 @@
+// Valida locais, orçamento e horários do roteiro e calcula os totais e o saldo por pessoa.
 import { planSchema } from "./schemas.js";
 export { requestSchema } from "./schemas.js";
 export function validatePlan(raw, places, request) {

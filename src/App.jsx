@@ -1,3 +1,4 @@
+// Organiza a tela principal e conecta formulário, carregamento, erros e resultado.
 import ErrorState from "./components/ErrorState";
 import LoadingState from "./components/LoadingState";
 import ValueStrip from "./components/ValueStrip";

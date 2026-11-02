@@ -1,3 +1,4 @@
+// Coordena a conversa com o Gemini e a execução das ferramentas até obter um roteiro validado.
 import { generateContent } from "./gemini.js";
 import { locateCity, findPlaces } from "./places.js";
 import { getWeather } from "./weather.js";

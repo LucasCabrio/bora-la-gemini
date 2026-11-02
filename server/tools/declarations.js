@@ -1,3 +1,4 @@
+// Define os nomes, as descrições e os argumentos das ferramentas apresentadas ao Gemini.
 import { planTool } from "./planTool.js";
 export const declarations = [
   {

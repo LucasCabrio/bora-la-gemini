@@ -1,3 +1,4 @@
+// Guarda as escolhas do usuário e envia os dados do formulário para gerar o roteiro.
 import FormExample from "./FormExample";
 import FormHeading from "./FormHeading";
 import FormActions from "./FormActions";
